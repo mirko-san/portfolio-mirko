@@ -41,6 +41,11 @@ export default function Home() {
           <div class="bg-primary rounded inline-block py-2 px-4">
             <a href="https://twitter.com/mirko_960">Twitter</a>
           </div>
+          <div class="bg-secondary rounded inline-block py-2 px-4 ml-2">
+            <a href="https://www.youtube.com/channel/UCwoEKcxzNJ_VUW0TPiPfyqw">
+              Youtube
+            </a>
+          </div>
         </div>
       </section>
     </div>
