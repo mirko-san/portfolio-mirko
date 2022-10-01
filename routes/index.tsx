@@ -39,10 +39,13 @@ export default function Home() {
       <section>
         <div class="flex justify-center mt-4">
           <div class="bg-primary rounded inline-block py-2 px-4">
-            <a href="https://twitter.com/mirko_960">Twitter</a>
+            <a href="https://twitter.com/mirko_960" target="_blank">Twitter</a>
           </div>
           <div class="bg-secondary rounded inline-block py-2 px-4 ml-2">
-            <a href="https://www.youtube.com/channel/UCwoEKcxzNJ_VUW0TPiPfyqw">
+            <a
+              href="https://www.youtube.com/channel/UCwoEKcxzNJ_VUW0TPiPfyqw"
+              target="_blank"
+            >
               Youtube
             </a>
           </div>
