@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'MirkoIcon';
+  src: url("/MirkoIcon.woff2") format('woff2');
+}
+
+html {
+  background-color: #F8F3DE;
+}
+
+.mirko-icon {
+  font-family: "MirkoIcon";
+}
+
+.profile-image {
+  border-width: 6px;
+  border-color: #E5AF9B;
+}
