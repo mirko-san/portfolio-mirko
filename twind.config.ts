@@ -10,4 +10,13 @@ export default {
       white: "#ffffff",
     },
   },
+  preflight: {
+    "@font-face": {
+      "font-family": "MirkoIcon",
+      src: "url(/MirkoIcon.woff2)",
+    },
+    html: {
+      "background-color": "#f8f3de",
+    },
+  },
 } as Options;
