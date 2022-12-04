@@ -1,6 +1,8 @@
 import { Head } from "$fresh/runtime.ts";
 import { css, tw } from "twind/css";
 
+import { Form } from "@/components/Form.tsx";
+
 const cssIcon = css({
   "font-family": "MirkoIcon",
 });
@@ -43,7 +45,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section class="mb-4">
           <div class="flex justify-center mt-4">
             <div class="inline-block py-2 px-4">
               <a
@@ -115,6 +117,10 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </section>
+
+        <section class="mb-16">
+          <Form />
         </section>
 
         <section class="flex justify-center mt-4">
