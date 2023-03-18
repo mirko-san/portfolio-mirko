@@ -15,9 +15,8 @@ export default function Home() {
       </Head>
 
       <div class="p-4 mx-auto max-w-screen-md">
-        <h2 class="text-5xl text-center mt-8">Profile</h2>
         <section>
-          <div class="flex justify-center mt-8">
+          <div class="flex justify-center mt-2">
             {/* XXX: CSSのエラーはあとで直す */}
             <img
               class="bg-white max-w-[80%] rounded-full object-fill border-8 border-secondary"
@@ -27,13 +26,13 @@ export default function Home() {
           </div>
 
           <div class="flex justify-center mt-8">
-            <p class="text-5xl">
+            <p class="text-4xl">
               <span>ミルコ ( mirko )</span>
               <span class={tw(cssIcon)} className="pl-2">&#xf0000;</span>
             </p>
           </div>
 
-          <div class="flex justify-center mt-4">
+          <div class="flex justify-center mt-4 px-4">
             <ul class="list-disc">
               <li>
                 <span>セルフ受肉勢の VTuber です。</span>
