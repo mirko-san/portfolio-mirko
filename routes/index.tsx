@@ -1,11 +1,12 @@
 import { Head } from "$fresh/runtime.ts";
-import { css, tw } from "twind/css";
 
 import { Form } from "@/components/Form.tsx";
 
-const cssIcon = css({
-  "font-family": "MirkoIcon",
-});
+// NOTE: fresh のバージョンアップにより（？） css 関数が動かなくなった
+// とりあえずカスタムアイコンの利用をやめた
+// const cssIcon = css({
+//   "font-family": "MirkoIcon",
+// });
 
 export default function Home() {
   return (
@@ -17,7 +18,6 @@ export default function Home() {
       <div class="p-4 mx-auto max-w-screen-md">
         <section>
           <div class="flex justify-center mt-2">
-            {/* XXX: CSSのエラーはあとで直す */}
             <img
               class="bg-white max-w-[80%] rounded-full object-fill border-8 border-secondary"
               src="/profile_image.png"
@@ -28,7 +28,6 @@ export default function Home() {
           <div class="flex justify-center mt-8">
             <p class="text-4xl">
               <span>ミルコ ( mirko )</span>
-              <span class={tw(cssIcon)} className="pl-2">&#xf0000;</span>
             </p>
           </div>
 
