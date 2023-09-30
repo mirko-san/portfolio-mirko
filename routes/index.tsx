@@ -17,7 +17,6 @@ export default function Home() {
       <div class="p-4 mx-auto max-w-screen-md">
         <section>
           <div class="flex justify-center mt-2">
-            {/* XXX: CSSのエラーはあとで直す */}
             <img
               class="bg-white max-w-[80%] rounded-full object-fill border-8 border-secondary"
               src="/profile_image.png"
